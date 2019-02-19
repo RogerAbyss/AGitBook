@@ -1,19 +1,13 @@
 # 入职须知
 
-    Welcome!
-    欢迎来到中国囍联研发部任职!
-
-## IOS负责维护的项目
+#### IOS负责维护的项目
 - [中国囍联App-码云私人暂时管理](https://gitee.com/rogerabyss/zgxl-ios)
 - [json仓库维护](http://183.64.28.18:8686/zgxl/zgxl-json)
 - [成都/重庆洗衣婆App](http://183.64.28.18:8686/zgxl/zgxl-wash-ios)
 - [交易所App](http://183.64.28.18:8686/zgxl/xl)
 - [国际化仓库](http://183.64.28.18:8686/ren.chao/zgxl-localization)
 
-## 相关文档
-- [AProject-非常重要]()
-
-## 需要掌握的语言&工具
+#### 需要掌握的语言&工具
 
 | **语言** | **必要度** | **作用** |
 | :--- | :--- | | :--- |
