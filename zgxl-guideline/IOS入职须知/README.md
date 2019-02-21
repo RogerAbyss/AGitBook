@@ -2,10 +2,10 @@
 
 #### IOS负责维护的项目
 - [中国囍联App-码云私人暂时管理](https://gitee.com/rogerabyss/zgxl-ios)
-- [json仓库维护](http://183.64.28.18:8686/zgxl/zgxl-json)
+- [json仓库维护](http://183.64.28.18:8686/automatic/zgxl-json)
 - [成都/重庆洗衣婆App](http://183.64.28.18:8686/zgxl/zgxl-wash-ios)
 - [交易所App](http://183.64.28.18:8686/zgxl/xl)
-- [国际化仓库](http://183.64.28.18:8686/ren.chao/zgxl-localization)
+- [国际化仓库](http://183.64.28.18:8686/automatic/zgxl-localization)
 
 #### 需要掌握的语言&工具
 
