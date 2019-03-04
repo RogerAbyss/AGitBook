@@ -1,0 +1,34 @@
+---
+
+app:
+  base:
+    - rar
+    - chorme
+    - lastpass
+    - yomail
+    - 腾讯电脑管家
+    - 输入法
+    - 百度云
+    - 迅雷
+    - teamView
+    - Gopro
+    - vscode
+  chat:
+    - QQ
+    - wechat
+  game:
+    - steam
+    - 暴雪
+    - TCG
+    - Uplay
+  design:
+    - autoCAD
+    - photoshop
+    - Xmind
+  work:
+    - sourcetree
+    - IDEA
+    - webstorm
+  fun:
+    - 腾讯视频
+    - 爱奇艺视频
