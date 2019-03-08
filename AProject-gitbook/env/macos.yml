@@ -2,44 +2,31 @@
 win:
   - diskGenius
 app:
-  - teamview
+  - teamview/向日葵
   - docker
   - chrome
-  - firefox
   - lastpass
-  - onepass
   - sourcetree
   - postman
   - cleanmymac
-  - timing
+  - timing: "need crash version"
   - charles
+  - wireshark:
+    - rvictl -s {udid:idevice_id list}
+    - rvictl -x {udid:idevice_id list}
   - istatmenu
   - bartender
-  - deco
-  - filezilla
+  - filezilla-ftp
   - postmen:
     - newman
-  - cornerstone
+  - cornerstone-svn
   - Fabric
   - iterm
   - xmind
-  - owncloud
   - yomail
-  - pap.er
-  - launchRocket
-  - vscode:
-    - minapp
-    - Docker
-    - Dracula Theme
-    - ESLint
-    - GBKtoUTF8
-    - HTML Snippets
-    - Markdown Preview Enhanced
-    - npm
-    - Vetur
+  - vscode
   - shadowsocks
   - navicat premium
-  - xmarks
   - anacoda:
     - base:
       - python 3.6:
@@ -64,13 +51,13 @@ app:
 brew:
   # ios
   - carthage
-  - Nonchalant/appicon/appicon
+  - Nonchalant/appicon/appicon: "appicon *"
   # 工具
   - automake
   - pkg-config
   - openssl
   - ncdu
-  - tree
+  - tree: "tree -L 1"
   - wget
   # git
   - git
@@ -137,6 +124,7 @@ brew:
 
   - zentao: 8103
   - gitlab: 8104
+  - rancher: 80
   - yarn:
     - mirror:
         - yarn config set registry https://registry.npm.taobao.org --global
