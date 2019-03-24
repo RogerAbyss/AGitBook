@@ -1,32 +1,30 @@
 ---
 
-windows:
-  Chorme:
-    - lastpass
-    - ...
-  基础工具:
-    - kms
-    - rar
-    - 鲁大师
-    - yomail
-    - 百度网盘
-    - 迅雷
-    - teamView
-    - Gopro
-    - windows安装工具
-    - 启动工具箱
-  编程:
-    - sourcetree
-  设计:
-    - ps
-    - pr
-  游戏:
-    - 暴雪
-    - steam
-    - TCG
-    - UPlay
-    社交:
-    - Tim
-    - wechat
-  Docker:
-  Vscode:
+Chorme:
+  - lastpass
+  - ...
+基础工具:
+  - kms
+  - rar
+  - 鲁大师
+  - yomail
+  - 百度网盘
+  - 迅雷
+  - teamView
+  - Gopro
+  - windows安装工具
+  - 启动工具箱
+  - vscode
+编程:
+  - sourcetree
+设计:
+  - ps
+  - pr
+游戏:
+  - 暴雪
+  - steam
+  - TCG
+  - UPlay
+社交:
+  - Tim
+  - wechat

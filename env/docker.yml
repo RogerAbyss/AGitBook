@@ -1,0 +1,6 @@
+Docker:
+  commom:
+    - netdata
+    - nginx
+  require:
+    - linux: 内核3+
