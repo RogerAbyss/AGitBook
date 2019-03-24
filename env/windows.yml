@@ -1,34 +1,32 @@
 ---
 
-app:
-  base:
-    - rar
-    - chorme
+windows:
+  Chorme:
     - lastpass
+    - ...
+  基础工具:
+    - kms
+    - rar
+    - 鲁大师
     - yomail
-    - 腾讯电脑管家
-    - 输入法
-    - 百度云
+    - 百度网盘
     - 迅雷
     - teamView
     - Gopro
-    - vscode
-  chat:
-    - QQ
-    - wechat
-  game:
-    - steam
-    - 暴雪
-    - TCG
-    - Uplay
-  design:
-    - autoCAD
-    - photoshop
-    - Xmind
-  work:
+    - windows安装工具
+    - 启动工具箱
+  编程:
     - sourcetree
-    - IDEA
-    - webstorm
-  fun:
-    - 腾讯视频
-    - 爱奇艺视频
+  设计:
+    - ps
+    - pr
+  游戏:
+    - 暴雪
+    - steam
+    - TCG
+    - UPlay
+    社交:
+    - Tim
+    - wechat
+  Docker:
+  Vscode:
