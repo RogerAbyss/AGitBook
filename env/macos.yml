@@ -44,8 +44,13 @@ app:
       - datagrip
       - idea
       - pycharm
-  - owncloud:
+  - nextcloud/owncloud:
     - port: 81
+
+
+linux:
+  - docker:netdata
+  - iftop
 
 
 brew:
@@ -83,6 +88,8 @@ brew:
   # 前端
   - flow
   - watchman
+  # 后台
+  - mvn
 
   # ...
   - nginx
@@ -124,7 +131,6 @@ brew:
 
   - zentao: 8103
   - gitlab: 8104
-  - rancher: 80
   - yarn:
     - mirror:
         - yarn config set registry https://registry.npm.taobao.org --global
@@ -132,7 +138,6 @@ brew:
         - yarn config set chromedriver_cdnurl http://npm.taobao.org/mirrors/chromedriver --global
     - react-native-cli
     - less
-    - node
     - react-native
     - ios-deploy
     - appium-doctor
