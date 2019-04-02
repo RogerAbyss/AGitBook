@@ -1,3 +1,6 @@
 ---
 
-- iftop
+net:
+  - iftop (net)
+  - top
+  - free -h
