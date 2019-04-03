@@ -61,12 +61,18 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
     "max-concurrent-downloads": 10,
     "max-concurrent-uploads": 10,
     "registry-mirrors": ["https://****.mirror.aliyuncs.com"],
+    "hosts": ["tcp://0.0.0.0:2375","unix:///var/run/docker.sock"],
     "storage-driver": "overlay2",
     "storage-opts": [
     "overlay2.override_kernel_check=true"
     ]
 }
 EOF
+
+# 可选 尽量加密/或者内网 不安全, 请在上面配置中删除
+# vim /usr/lib/systemd/system/docker.service(centos)
+# vim /lib/systemd/system/docker.service(ubuntu)
+# ``ExecStart=/usr/bin/docker daemon -H tcp://0.0.0.0:2375 -H unix://var/run/docker.sock``
 
 # docker 重启
 sudo systemctl daemon-reload&&sudo systemctl restart docker
@@ -78,8 +84,8 @@ sudo systemctl enable docker
 4. 安装docker-compose
 ```shell
 # 由于被墙, 常规尝试不好下载docker-compose
-# 安装pip3
-apt install python3-pip
+# 安装pip
+apt install python-pip
 
 # 安装docker-compose
 pip3 install docker-compose
